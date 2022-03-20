@@ -36,7 +36,7 @@ In this dataset we have this class distribution:
 
 Benign: 458 (65.5%) 
 Malignant: 241 (34.5%) 
-
+![alt text](Photo/data.png)
 
 
 ## Data preparation and spliting 
@@ -54,4 +54,41 @@ Splitting the data is one of the most important steps and concepts in Machine Le
 
 
 For this case study we will separate the data into 75% training set and 25% testing set. Also we need to make sure that both sets contains data that belong to both class. 
+
+
+## Comparation of the results 
+As we can see in the graph below all the classifiers did a good job classifying the testing set but as we can see in the graph below the Support vector machine and Naïve Bayes classifier made a very similar ROC curve. But we can see that Naïve bayer classifier has slightly more area under the curve. 
+
+If we compare the accuracy of every classifier, we can see how Naïve Bayes has greatest value with 96,28. 
+
+
+| Model      |  Accuracy |
+|------------|-----------|
+| Naïve Byes | 96,28 |
+| Random forest | 96,27|
+| svm      |  94.68 |
+| Ctrees   | 96,28 |
+|  rpart   |  92,02 |
+
+
+![alt text](Photo/result.png)
+ 
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+
+## Conclusion: 
+
+With this case study we learned how to use different classifying techniques in order to predict maling toumours. All of the classifiers had a good result averaging and accuracy oarround 92%. But we discovered that for this dataset the best classifier was the Naïve Bayes classifier. 
 
