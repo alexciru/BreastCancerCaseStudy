@@ -36,8 +36,8 @@ In this dataset we have this class distribution:
 
 Benign: 458 (65.5%) 
 Malignant: 241 (34.5%) 
-![data](Photo/data.png)
 
+<img src="Photo/data.png" width="500" height="500">
 
 ## Data preparation and spliting 
 
@@ -71,21 +71,9 @@ If we compare the accuracy of every classifier, we can see how Naïve Bayes has 
 |  rpart   |  92,02 |
 
 
-![comparation](Photo/comparation_thick.png)
  
-
+<img src="Photo/comparation_thick.png" width="800" height="400">
  
-
-
-
- 
-
-
-
-
-
-
-
  
 
 ## Conclusion: 
